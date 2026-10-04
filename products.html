@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products & Commodities — Polex Trade & Global Sourcing</title>
+  <meta name="description" content="Explore Polex's certified B2B product portfolio: pharmaceuticals, medical devices, food commodities, textiles, construction materials, machinery, furniture, and custom OEM manufacturing.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Products & Commodities — Polex Trade">
+  <meta property="og:description" content="Certified global sourcing across 8 primary commercial categories.">
+  <meta property="og:image" content="assets/images/logo.png">
+
+  <link rel="icon" type="image/png" href="assets/images/logo.png">
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+  <!-- ==================== HEADER ==================== -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar-inner">
+      <a href="index.html" class="navbar-brand">
+        <img src="assets/images/logo.png" alt="Polex Trade Logo" class="navbar-logo">
+      </a>
+
+      <nav class="navbar-menu">
+        <a href="index.html" class="navbar-link" data-i18n="navHome">Home</a>
+        <a href="about.html" class="navbar-link" data-i18n="navAbout">About Us</a>
+        <a href="group.html" class="navbar-link" data-i18n="navGroup">Group Companies</a>
+        <a href="products.html" class="navbar-link active" data-i18n="navProducts">Products</a>
+        <a href="services.html" class="navbar-link" data-i18n="navServices">Services</a>
+        <a href="gallery.html" class="navbar-link" data-i18n="navGallery">Gallery</a>
+        <a href="contact.html" class="navbar-link" data-i18n="navContact">Contact</a>
+      </nav>
+
+      <div class="navbar-actions">
+        <div class="lang-switcher">
+          <button class="lang-btn active" data-lang="EN">EN</button>
+          <button class="lang-btn" data-lang="TR">TR</button>
+        </div>
+
+        <a href="contact.html" class="btn btn-primary btn-sm navbar-contact-hotline" data-i18n="navContact">
+          Contact Hub
+        </a>
+
+        <button class="mobile-toggle" aria-label="Toggle Navigation Drawer">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer-overlay"></div>
+  <aside class="mobile-drawer">
+    <div>
+      <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid rgba(255,255,255,0.08); padding-bottom:1rem;">
+        <img src="assets/images/logo.png" alt="Polex Trade" style="height:38px; width:auto;">
+        <button class="mobile-drawer-close" style="color:#FFF; font-size:1.5rem;">&times;</button>
+      </div>
+      <ul class="mobile-drawer-links">
+        <li><a href="index.html" class="mobile-drawer-link" data-i18n="navHome">Home</a></li>
+        <li><a href="about.html" class="mobile-drawer-link" data-i18n="navAbout">About Us</a></li>
+        <li><a href="group.html" class="mobile-drawer-link" data-i18n="navGroup">Group Companies</a></li>
+        <li><a href="products.html" class="mobile-drawer-link" data-i18n="navProducts">Products & Commodities</a></li>
+        <li><a href="services.html" class="mobile-drawer-link" data-i18n="navServices">Consultancy Services</a></li>
+        <li><a href="gallery.html" class="mobile-drawer-link" data-i18n="navGallery">Gallery</a></li>
+        <li><a href="contact.html" class="mobile-drawer-link" data-i18n="navContact">Contact Hub</a></li>
+      </ul>
+    </div>
+  </aside>
+
+  <!-- ==================== SUBPAGE BANNER ==================== -->
+  <section class="section" style="padding-top: calc(var(--nav-height) + 3rem); padding-bottom: 3rem; background: var(--color-brand-secondary); border-bottom: 1px solid var(--bg-card-border);">
+    <div class="container">
+      <div style="max-width: 780px;">
+        <div class="section-tag" data-i18n="prodTag">B2B Commodity Portfolio</div>
+        <h1 style="font-size: clamp(2.5rem, 4vw, 3.5rem); margin-bottom: 1rem;">
+          Verified Global <span class="gradient-text-gold">Sourcing & Commodities</span>
+        </h1>
+        <p style="font-size: 1.15rem; color: #94A3B8; line-height: 1.6;">
+          Inspected, certified, and dispatched from verified manufacturers. Ready for containerized dispatch under international Incoterms.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CATALOG & FILTER ==================== -->
+  <section class="section">
+    <div class="container">
+      <!-- Filter Tabs -->
+      <div class="product-filter-tabs">
+        <button class="product-tab active" data-filter="all" data-i18n="prodTabAll">All Categories</button>
+        <button class="product-tab" data-filter="pharma" data-i18n="prodTabPharma">Pharmaceuticals</button>
+        <button class="product-tab" data-filter="medical" data-i18n="prodTabMedical">Medical Devices</button>
+        <button class="product-tab" data-filter="food" data-i18n="prodTabFood">Food Products</button>
+        <button class="product-tab" data-filter="textile" data-i18n="prodTabTextile">Textiles</button>
+        <button class="product-tab" data-filter="construction" data-i18n="prodTabConstruction">Construction</button>
+        <button class="product-tab" data-filter="machinery" data-i18n="prodTabMachinery">Machinery</button>
+        <button class="product-tab" data-filter="furniture" data-i18n="prodTabFurniture">Furniture</button>
+        <button class="product-tab" data-filter="custom" data-i18n="prodTabCustom">Custom OEM</button>
+      </div>
+
+      <!-- Catalog Grid with Specifications -->
+      <div class="products-grid">
+        <!-- 1. Pharma -->
+        <article class="product-card" data-category="pharma">
+          <div class="product-thumb-wrap">
+            <img src="https://teknoteb.cloud/assets/upload/polextradecom/f_18c8f_f_7681b_ilac.jpeg" alt="Pharmaceuticals" class="product-thumb">
+            <span class="product-category-tag">PHARMACEUTICALS</span>
+          </div>
+          <div class="product-body">
+            <h3 class="product-title" data-i18n="prodPharmaTitle">Certified Pharmaceuticals</h3>
+            <p class="product-desc" data-i18n="prodPharmaDesc">Prescription medications, hospital generics, vitamins, and healthcare formulations sourced under strict GMP protocols.</p>
+            <div style="background: rgba(255,255,255,0.03); border-radius: 8px; padding: 0.75rem; margin-bottom: 1.25rem; font-size: 0.78rem; color: #94A3B8;">
+              <div><strong>MOQ:</strong> Contract / Commercial Batch</div>
+              <div><strong>Standards:</strong> WHO-GMP / European Pharmacopeia</div>
+              <div><strong>Delivery:</strong> Temperature Controlled Air / Sea Freight</div>
+            </div>
+            <div class="product-footer">
+              <a href="index.html#rfq-section" class="btn btn-primary btn-sm btn-inquire-product" data-category="Pharmaceuticals" data-i18n="prodInquire">Request Quote (RFQ)</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 2. Medical -->
+        <article class="product-card" data-category="medical">
+          <div class="product-thumb-wrap">
+            <img src="https://teknoteb.cloud/assets/upload/polextradecom/f_76afe_f_735c0_medikal.jpeg" alt="Medical Devices" class="product-thumb">
+            <span class="product-category-tag">MEDICAL DEVICES</span>
+          </div>
+          <div class="product-body">
+            <h3 class="product-title" data-i18n="prodMedicalTitle">Medical & Diagnostic Devices</h3>
+            <p class="product-desc" data-i18n="prodMedicalDesc">Surgical consumables, laboratory diagnostic instruments, hospital disposables, and PPE meeting CE/FDA standards.</p>
+            <div style="background: rgba(255,255,255,0.03); border-radius: 8px; padding: 0.75rem; margin-bottom: 1.25rem; font-size: 0.78rem; color: #94A3B8;">
+              <div><strong>MOQ:</strong> 1 Master Pallet / 5,000 Units</div>
+              <div><strong>Standards:</strong> ISO 13485 / CE Directive 93/42/EEC</div>
+              <div><strong>Delivery:</strong> Global CIF / FOB Air & Sea</div>
+            </div>
+            <div class="product-footer">
+              <a href="index.html#rfq-section" class="btn btn-primary btn-sm btn-inquire-product" data-category="Medical Equipment" data-i18n="prodInquire">Request Quote (RFQ)</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 3. Food Commodities -->
+        <article class="product-card" data-category="food">
+          <div class="product-thumb-wrap">
+            <img src="https://teknoteb.cloud/assets/upload/polextradecom/f_0cdaf_f_d4698_gida.jpeg" alt="Food Commodities" class="product-thumb">
+            <span class="product-category-tag">FOOD & COMMODITIES</span>
+          </div>
+          <div class="product-body">
+            <h3 class="product-title" data-i18n="prodFoodTitle">Food & Agricultural Commodities</h3>
+            <p class="product-desc" data-i18n="prodFoodDesc">Premium Turkish olive oils, grains, dairy derivatives, dried nuts, spices, and packaged food items with Halal certification.</p>
+            <div style="background: rgba(255,255,255,0.03); border-radius: 8px; padding: 0.75rem; margin-bottom: 1.25rem; font-size: 0.78rem; color: #94A3B8;">
+              <div><strong>MOQ:</strong> 1 x 20ft FCL Container</div>
+              <div><strong>Standards:</strong> Halal / ISO 22000 / HACCP</div>
+              <div><strong>Packaging:</strong> Bulk Flexitank / Commercial Retail</div>
+            </div>
+            <div class="product-footer">
+              <a href="index.html#rfq-section" class="btn btn-primary btn-sm btn-inquire-product" data-category="Food Products" data-i18n="prodInquire">Request Quote (RFQ)</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 4. Textiles -->
+        <article class="product-card" data-category="textile">
+          <div class="product-thumb-wrap">
+            <img src="https://teknoteb.cloud/assets/upload/polextradecom/f_c432d_f_73978_tekstil.jpeg" alt="Textiles" class="product-thumb">
+            <span class="product-category-tag">TEXTILES</span>
+          </div>
+          <div class="product-body">
+            <h3 class="product-title" data-i18n="prodTextileTitle">Technical & Commercial Textiles</h3>
+            <p class="product-desc" data-i18n="prodTextileDesc">Ready-to-wear garments, hotel linens, flame-retardant commercial fabrics, and industrial workwear from premier Turkish mills.</p>
+            <div style="background: rgba(255,255,255,0.03); border-radius: 8px; padding: 0.75rem; margin-bottom: 1.25rem; font-size: 0.78rem; color: #94A3B8;">
+              <div><strong>MOQ:</strong> 1,000 Pieces or 500 Meters</div>
+              <div><strong>Standards:</strong> OEKO-TEX Standard 100 / ISO 9001</div>
+              <div><strong>Customization:</strong> Private Label & Custom Weaving</div>
+            </div>
+            <div class="product-footer">
+              <a href="index.html#rfq-section" class="btn btn-primary btn-sm btn-inquire-product" data-category="Textiles" data-i18n="prodInquire">Request Quote (RFQ)</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 5. Construction -->
+        <article class="product-card" data-category="construction">
+          <div class="product-thumb-wrap">
+            <img src="https://teknoteb.cloud/assets/upload/polextradecom/f_21e1d_f_ad06c_insaat.jpeg" alt="Construction Materials" class="product-thumb">
+            <span class="product-category-tag">CONSTRUCTION</span>
+          </div>
+          <div class="product-body">
+            <h3 class="product-title" data-i18n="prodConstructionTitle">Heavy Construction Materials</h3>
+            <p class="product-desc" data-i18n="prodConstructionDesc">Structural steel, ceramic tiles, porcelain slabs, hydraulic cements, and modular prefabricated steel housing systems.</p>
+            <div style="background: rgba(255,255,255,0.03); border-radius: 8px; padding: 0.75rem; margin-bottom: 1.25rem; font-size: 0.78rem; color: #94A3B8;">
+              <div><strong>MOQ:</strong> Full Container Load (FCL) / Breakbulk</div>
+              <div><strong>Standards:</strong> EN 10025 / ASTM A36 / CE</div>
+              <div><strong>Port Loading:</strong> Mersin / Izmir / Istanbul</div>
+            </div>
+            <div class="product-footer">
+              <a href="index.html#rfq-section" class="btn btn-primary btn-sm btn-inquire-product" data-category="Construction Materials" data-i18n="prodInquire">Request Quote (RFQ)</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 6. Machinery -->
+        <article class="product-card" data-category="machinery">
+          <div class="product-thumb-wrap">
+            <img src="https://teknoteb.cloud/assets/upload/polextradecom/f_9d5a2_f_454a9_makine.jpeg" alt="Machinery" class="product-thumb">
+            <span class="product-category-tag">MACHINERY</span>
+          </div>
+          <div class="product-body">
+            <h3 class="product-title" data-i18n="prodMachineryTitle">Industrial Machinery & Tools</h3>
+            <p class="product-desc" data-i18n="prodMachineryDesc">Agricultural processing equipment, manufacturing tools, CNC automation parts, and precision spare components.</p>
+            <div style="background: rgba(255,255,255,0.03); border-radius: 8px; padding: 0.75rem; margin-bottom: 1.25rem; font-size: 0.78rem; color: #94A3B8;">
+              <div><strong>MOQ:</strong> Single Unit to Plant-scale Assemblies</div>
+              <div><strong>Warranty:</strong> 24-Month Manufacturer Warranty</div>
+              <div><strong>Support:</strong> Installation & Commissioning Guides</div>
+            </div>
+            <div class="product-footer">
+              <a href="index.html#rfq-section" class="btn btn-primary btn-sm btn-inquire-product" data-category="Machinery" data-i18n="prodInquire">Request Quote (RFQ)</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 7. Furniture -->
+        <article class="product-card" data-category="furniture">
+          <div class="product-thumb-wrap">
+            <img src="https://teknoteb.cloud/assets/upload/polextradecom/f_9b0e3_f_62a44_mobilya.jpeg" alt="Furniture" class="product-thumb">
+            <span class="product-category-tag">FURNITURE</span>
+          </div>
+          <div class="product-body">
+            <h3 class="product-title" data-i18n="prodFurnitureTitle">Commercial & Luxury Furniture</h3>
+            <p class="product-desc" data-i18n="prodFurnitureDesc">Architectural casework, residential luxury suites, office ergonomics, and hospitality grade furniture manufactured in Turkey.</p>
+            <div style="background: rgba(255,255,255,0.03); border-radius: 8px; padding: 0.75rem; margin-bottom: 1.25rem; font-size: 0.78rem; color: #94A3B8;">
+              <div><strong>Target Sectors:</strong> Hotels, Commercial Offices, Luxury Villas</div>
+              <div><strong>Finishes:</strong> Solid Oak, Walnut, Italian Leathers</div>
+              <div><strong>Dispatch:</strong> Secure Export Crating</div>
+            </div>
+            <div class="product-footer">
+              <a href="index.html#rfq-section" class="btn btn-primary btn-sm btn-inquire-product" data-category="Furniture" data-i18n="prodInquire">Request Quote (RFQ)</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 8. Custom OEM -->
+        <article class="product-card" data-category="custom">
+          <div class="product-thumb-wrap">
+            <img src="https://teknoteb.cloud/assets/upload/polextradecom/f_61950_f_1a1dc_ozel.jpeg" alt="Custom OEM" class="product-thumb">
+            <span class="product-category-tag">CUSTOM OEM</span>
+          </div>
+          <div class="product-body">
+            <h3 class="product-title" data-i18n="prodCustomTitle">Custom OEM & Bespoke Manufacturing</h3>
+            <p class="product-desc" data-i18n="prodCustomDesc">Custom-to-spec tooling, private label formulations, and specialized engineering products designed for global clients.</p>
+            <div style="background: rgba(255,255,255,0.03); border-radius: 8px; padding: 0.75rem; margin-bottom: 1.25rem; font-size: 0.78rem; color: #94A3B8;">
+              <div><strong>Process:</strong> CAD/CAM Blueprint -> Prototype -> Volume Run</div>
+              <div><strong>NDA / IP:</strong> Protected Bilateral Agreements</div>
+              <div><strong>Lead Time:</strong> Optimized Custom Schedules</div>
+            </div>
+            <div class="product-footer">
+              <a href="index.html#rfq-section" class="btn btn-primary btn-sm btn-inquire-product" data-category="Custom OEM" data-i18n="prodInquire">Request Quote (RFQ)</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html">
+            <img src="assets/images/logo.png" alt="Polex Trade Logo" style="height:50px; width:auto; margin-bottom:1rem;">
+          </a>
+          <p class="footer-brand-desc" data-i18n="footerDesc">
+            Polex Consultancy International Trade — Ankara-based global trading house and consultancy operating seamlessly across 40+ countries since 2017.
+          </p>
+        </div>
+        <div>
+          <h4 class="footer-col-title" data-i18n="footerColLinks">Navigation</h4>
+          <ul class="footer-links-list">
+            <li><a href="index.html" class="footer-link" data-i18n="navHome">Home</a></li>
+            <li><a href="about.html" class="footer-link" data-i18n="navAbout">About Us</a></li>
+            <li><a href="group.html" class="footer-link" data-i18n="navGroup">Group Companies</a></li>
+            <li><a href="products.html" class="footer-link" data-i18n="navProducts">Products</a></li>
+            <li><a href="contact.html" class="footer-link" data-i18n="navContact">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-col-title" data-i18n="footerColCommodities">Commodities</h4>
+          <ul class="footer-links-list">
+            <li><a href="products.html" class="footer-link">Pharmaceuticals</a></li>
+            <li><a href="products.html" class="footer-link">Medical Devices</a></li>
+            <li><a href="products.html" class="footer-link">Food Products</a></li>
+            <li><a href="products.html" class="footer-link">Textiles</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-col-title" data-i18n="footerColContact">Ankara Headquarters</h4>
+          <div class="footer-contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            <span data-i18n="contactHqVal">Çamlıca Mah. Anadolu Bulv. 20 L/6, Yenimahalle / Ankara</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            <a href="tel:+903125024064" class="footer-link">+90 (312) 502 40 64</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; 2026 Polex Trade & Consultancy. <span data-i18n="footerRights">All rights reserved.</span></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery — Polex Trade & Global Operations Visual Journey</title>
+  <meta name="description" content="A visual archive of Polex Consultancy: executive leadership, corporate team, warehouse facilities, product inspections, and affiliated ventures.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Gallery — Polex Trade & Global Operations">
+  <meta property="og:description" content="Visual record of Polex's international trade operations, team, and facilities.">
+  <meta property="og:image" content="assets/images/logo.png">
+
+  <link rel="icon" type="image/png" href="assets/images/logo.png">
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+  <!-- ==================== HEADER ==================== -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar-inner">
+      <a href="index.html" class="navbar-brand">
+        <img src="assets/images/logo.png" alt="Polex Trade Logo" class="navbar-logo">
+      </a>
+
+      <nav class="navbar-menu">
+        <a href="index.html" class="navbar-link" data-i18n="navHome">Home</a>
+        <a href="about.html" class="navbar-link" data-i18n="navAbout">About Us</a>
+        <a href="group.html" class="navbar-link" data-i18n="navGroup">Group Companies</a>
+        <a href="products.html" class="navbar-link" data-i18n="navProducts">Products</a>
+        <a href="services.html" class="navbar-link" data-i18n="navServices">Services</a>
+        <a href="gallery.html" class="navbar-link active" data-i18n="navGallery">Gallery</a>
+        <a href="contact.html" class="navbar-link" data-i18n="navContact">Contact</a>
+      </nav>
+
+      <div class="navbar-actions">
+        <div class="lang-switcher">
+          <button class="lang-btn active" data-lang="EN">EN</button>
+          <button class="lang-btn" data-lang="TR">TR</button>
+        </div>
+
+        <a href="contact.html" class="btn btn-primary btn-sm navbar-contact-hotline" data-i18n="navContact">
+          Contact Hub
+        </a>
+
+        <button class="mobile-toggle" aria-label="Toggle Navigation Drawer">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer-overlay"></div>
+  <aside class="mobile-drawer">
+    <div>
+      <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid rgba(255,255,255,0.08); padding-bottom:1rem;">
+        <img src="assets/images/logo.png" alt="Polex Trade" style="height:38px; width:auto;">
+        <button class="mobile-drawer-close" style="color:#FFF; font-size:1.5rem;">&times;</button>
+      </div>
+      <ul class="mobile-drawer-links">
+        <li><a href="index.html" class="mobile-drawer-link" data-i18n="navHome">Home</a></li>
+        <li><a href="about.html" class="mobile-drawer-link" data-i18n="navAbout">About Us</a></li>
+        <li><a href="group.html" class="mobile-drawer-link" data-i18n="navGroup">Group Companies</a></li>
+        <li><a href="products.html" class="mobile-drawer-link" data-i18n="navProducts">Products & Commodities</a></li>
+        <li><a href="services.html" class="mobile-drawer-link" data-i18n="navServices">Consultancy Services</a></li>
+        <li><a href="gallery.html" class="mobile-drawer-link" data-i18n="navGallery">Gallery</a></li>
+        <li><a href="contact.html" class="mobile-drawer-link" data-i18n="navContact">Contact Hub</a></li>
+      </ul>
+    </div>
+  </aside>
+
+  <!-- ==================== BANNER ==================== -->
+  <section class="section" style="padding-top: calc(var(--nav-height) + 3rem); padding-bottom: 3rem; background: var(--color-brand-secondary); border-bottom: 1px solid var(--bg-card-border);">
+    <div class="container">
+      <div style="max-width: 780px;">
+        <div class="section-tag" data-i18n="navGallery">Corporate Gallery</div>
+        <h1 style="font-size: clamp(2.5rem, 4vw, 3.5rem); margin-bottom: 1rem;">
+          Our World in <span class="gradient-text-gold">Focus & Action</span>
+        </h1>
+        <p style="font-size: 1.15rem; color: #94A3B8; line-height: 1.6;">
+          Authentic moments showcasing our leadership, team gatherings, international logistics, and client delegations.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== GALLERY GRID & FILTERS ==================== -->
+  <section class="section">
+    <div class="container">
+      <!-- Filter Tabs -->
+      <div class="gallery-filters">
+        <button class="product-tab gallery-filter-btn active" data-category="all">All Records</button>
+        <button class="product-tab gallery-filter-btn" data-category="team">Executive & Team</button>
+        <button class="product-tab gallery-filter-btn" data-category="companies">Holding Subsidiaries</button>
+        <button class="product-tab gallery-filter-btn" data-category="products">Products & Commodities</button>
+        <button class="product-tab gallery-filter-btn" data-category="office">Facilities & Operations</button>
+      </div>
+
+      <!-- Grid -->
+      <div class="gallery-grid">
+        <!-- Team 1: CEO -->
+        <div class="gallery-card" data-category="team" data-full="assets/images/ceo.jpeg">
+          <img src="assets/images/ceo.jpeg" alt="Polex Trade CEO & Management" loading="lazy">
+          <div class="gallery-card-overlay">
+            <span class="gallery-card-caption">Executive Leadership & Strategic Meeting</span>
+          </div>
+        </div>
+
+        <!-- Team 2 -->
+        <div class="gallery-card" data-category="team" data-full="assets/images/group.jpeg">
+          <img src="assets/images/group.jpeg" alt="Polex Trade Corporate Team" loading="lazy">
+          <div class="gallery-card-overlay">
+            <span class="gallery-card-caption">Polex Trade Core Advisory Board</span>
+          </div>
+        </div>
+
+        <!-- Team 3 -->
+        <div class="gallery-card" data-category="team" data-full="assets/images/group2.jpeg">
+          <img src="assets/images/group2.jpeg" alt="Polex Trade Commercial Specialists" loading="lazy">
+          <div class="gallery-card-overlay">
+            <span class="gallery-card-caption">International Trade Management Delegation</span>
+          </div>
+        </div>
+
+        <!-- Team 4 -->
+        <div class="gallery-card" data-category="team" data-full="assets/images/group3.jpeg">
+          <img src="assets/images/group3.jpeg" alt="Executive Meeting" loading="lazy">
+          <div class="gallery-card-overlay">
+            <span class="gallery-card-caption">Cross-Border Strategy Review</span>
+          </div>
+        </div>
+
+        <!-- Team 5 -->
+        <div class="gallery-card" data-category="team" data-full="assets/images/group4.jpeg">
+          <img src="assets/images/group4.jpeg" alt="Commercial Operations" loading="lazy">
+          <div class="gallery-card-overlay">
+            <span class="gallery-card-caption">Global Trade Desk Operations</span>
+          </div>
+        </div>
+
+        <!-- Team 6 -->
+        <div class="gallery-card" data-category="team" data-full="assets/images/group5.jpeg">
+          <img src="assets/images/group5.jpeg" alt="Team Session" loading="lazy">
+          <div class="gallery-card-overlay">
+            <span class="gallery-card-caption">Supply Chain & Freight Coordination</span>
+          </div>
+        </div>
+
+        <!-- Team 7 -->
+        <div class="gallery-card" data-category="team" data-full="assets/images/group6.jpeg">
+          <img src="assets/images/group6.jpeg" alt="Annual Corporate Summit" loading="lazy">
+          <div class="gallery-card-overlay">
+            <span class="gallery-card-caption">Annual Corporate Strategy Summit</span>
+          </div>
+        </div>
+
+        <!-- Company 1: Tay Pharma -->
+        <div class="gallery-card" data-category="companies" data-full="https://teknoteb.cloud/assets/upload/polextradecom/f_5b975_f_9dfad_tay_featured.jpg">
+          <img src="https://teknoteb.cloud/assets/upload/polextradecom/f_5b975_f_9dfad_tay_featured.jpg" alt="Tay Pharma Ecza Deposu" loading="lazy">
+          <div class="gallery-card-overlay">
+            <span class="gallery-card-caption">Tay Pharma Licensed Pharmaceutical Depot</span>
+          </div>
+        </div>
+
+        <!-- Company 2: Mag Yachting -->
+        <div class="gallery-card" data-category="companies" data-full="https://teknoteb.cloud/assets/upload/polextradecom/f_17128_f_73728_mag_featured.jpg">
+          <img src="https://teknoteb.cloud/assets/upload/polextradecom/f_17128_f_73728_mag_featured.jpg" alt="Mag Yachting Fethiye" loading="lazy">
+          <div class="gallery-card-overlay">
+            <span class="gallery-card-caption">Mag Yachting Fleet — Fethiye Mediterranean Riviera</span>
+          </div>
+        </div>
+
+        <!-- Office: Ankara HQ -->
+        <div class="gallery-card" data-category="office" data-full="https://teknoteb.cloud/assets/upload/polextradecom/f_a0f05_polex_slider.jpeg">
+          <img src="https://teknoteb.cloud/assets/upload/polextradecom/f_a0f05_polex_slider.jpeg" alt="Polex Headquarters" loading="lazy">
+          <div class="gallery-card-overlay">
+            <span class="gallery-card-caption">Ankara Headquarters & Trade Command Desk</span>
+          </div>
+        </div>
+
+        <!-- Products: Pharma -->
+        <div class="gallery-card" data-category="products" data-full="https://teknoteb.cloud/assets/upload/polextradecom/f_18c8f_f_7681b_ilac.jpeg">
+          <img src="https://teknoteb.cloud/assets/upload/polextradecom/f_18c8f_f_7681b_ilac.jpeg" alt="Pharmaceuticals" loading="lazy">
+          <div class="gallery-card-overlay">
+            <span class="gallery-card-caption">Pharmaceutical Batch Testing & Cold Storage</span>
+          </div>
+        </div>
+
+        <!-- Products: Food -->
+        <div class="gallery-card" data-category="products" data-full="https://teknoteb.cloud/assets/upload/polextradecom/f_0cdaf_f_d4698_gida.jpeg">
+          <img src="https://teknoteb.cloud/assets/upload/polextradecom/f_0cdaf_f_d4698_gida.jpeg" alt="Food Products" loading="lazy">
+          <div class="gallery-card-overlay">
+            <span class="gallery-card-caption">Agricultural Olive Oil & Mediterranean Bulk Produce</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== LIGHTBOX MODAL ==================== -->
+  <div class="lightbox-modal" role="dialog" aria-modal="true" aria-label="Fullscreen Image View">
+    <div class="lightbox-content">
+      <button class="lightbox-close" aria-label="Close Lightbox">&times;</button>
+      <img src="" alt="" class="lightbox-img">
+    </div>
+  </div>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html">
+            <img src="assets/images/logo.png" alt="Polex Trade Logo" style="height:50px; width:auto; margin-bottom:1rem;">
+          </a>
+          <p class="footer-brand-desc" data-i18n="footerDesc">
+            Polex Consultancy International Trade — Ankara-based global trading house and consultancy operating seamlessly across 40+ countries since 2017.
+          </p>
+        </div>
+        <div>
+          <h4 class="footer-col-title" data-i18n="footerColLinks">Navigation</h4>
+          <ul class="footer-links-list">
+            <li><a href="index.html" class="footer-link" data-i18n="navHome">Home</a></li>
+            <li><a href="about.html" class="footer-link" data-i18n="navAbout">About Us</a></li>
+            <li><a href="group.html" class="footer-link" data-i18n="navGroup">Group Companies</a></li>
+            <li><a href="products.html" class="footer-link" data-i18n="navProducts">Products</a></li>
+            <li><a href="contact.html" class="footer-link" data-i18n="navContact">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-col-title" data-i18n="footerColCommodities">Commodities</h4>
+          <ul class="footer-links-list">
+            <li><a href="products.html" class="footer-link">Pharmaceuticals</a></li>
+            <li><a href="products.html" class="footer-link">Medical Devices</a></li>
+            <li><a href="products.html" class="footer-link">Food Products</a></li>
+            <li><a href="products.html" class="footer-link">Textiles</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-col-title" data-i18n="footerColContact">Ankara Headquarters</h4>
+          <div class="footer-contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            <span data-i18n="contactHqVal">Çamlıca Mah. Anadolu Bulv. 20 L/6, Yenimahalle / Ankara</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            <a href="tel:+903125024064" class="footer-link">+90 (312) 502 40 64</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; 2026 Polex Trade & Consultancy. <span data-i18n="footerRights">All rights reserved.</span></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

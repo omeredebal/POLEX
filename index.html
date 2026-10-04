@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Polex Trade & Consultancy — Premier International Trade & Global Sourcing</title>
+  <meta name="description" content="Established in Ankara in 2017, Polex Consultancy is an international trade house operating across 40+ countries in pharmaceuticals, food commodities, textile, machinery, and specialized commercial consulting.">
+  <meta name="keywords" content="international trade, Turkey export, pharmaceutical export, food commodities, textile trade, Ankara trade consultancy, Tay Pharma, Polex Trade">
+  
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Polex Trade & Consultancy — Premier International Trade">
+  <meta property="og:description" content="Bridging global markets with uncompromising authority across 40+ countries worldwide since 2017.">
+  <meta property="og:image" content="assets/images/logo.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/logo.png">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+  <!-- ==================== HEADER & LUXURY NAVIGATION ==================== -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar-inner">
+      <!-- Brand Logo -->
+      <a href="index.html" class="navbar-brand" aria-label="Polex Trade Homepage">
+        <img src="assets/images/logo.png" alt="Polex Trade Logo" class="navbar-logo">
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="navbar-menu" role="navigation">
+        <a href="index.html" class="navbar-link active" data-i18n="navHome">Home</a>
+        
+        <div class="navbar-dropdown">
+          <a href="about.html" class="navbar-link navbar-dropdown-toggle">
+            <span data-i18n="navAbout">About Us</span>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </a>
+          <ul class="navbar-dropdown-menu">
+            <li><a href="about.html" class="navbar-dropdown-item" data-i18n="navAbout">Company Profile</a></li>
+            <li><a href="about.html#ceo-message" class="navbar-dropdown-item" data-i18n="navCeoMessage">CEO's Message</a></li>
+            <li><a href="about.html#vision-mission" class="navbar-dropdown-item" data-i18n="navVisionMission">Vision & Mission</a></li>
+          </ul>
+        </div>
+
+        <a href="group.html" class="navbar-link" data-i18n="navGroup">Group Companies</a>
+        <a href="products.html" class="navbar-link" data-i18n="navProducts">Products</a>
+        <a href="services.html" class="navbar-link" data-i18n="navServices">Services</a>
+        <a href="gallery.html" class="navbar-link" data-i18n="navGallery">Gallery</a>
+        <a href="contact.html" class="navbar-link" data-i18n="navContact">Contact</a>
+      </nav>
+
+      <!-- Actions & Language Switcher -->
+      <div class="navbar-actions">
+        <!-- Bilingual Switcher -->
+        <div class="lang-switcher" aria-label="Language Selector">
+          <button class="lang-btn active" data-lang="EN" aria-pressed="true">EN</button>
+          <button class="lang-btn" data-lang="TR" aria-pressed="false">TR</button>
+        </div>
+
+        <!-- Direct RFQ Action -->
+        <a href="#rfq-section" class="btn btn-primary btn-sm navbar-contact-hotline">
+          <span data-i18n="navRfq">Request Quote</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </a>
+
+        <!-- Mobile Toggle -->
+        <button class="mobile-toggle" aria-label="Toggle Navigation Drawer">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer-overlay"></div>
+  <aside class="mobile-drawer" aria-label="Mobile Navigation">
+    <div>
+      <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid rgba(255,255,255,0.08); padding-bottom:1rem;">
+        <img src="assets/images/logo.png" alt="Polex Trade" style="height:38px; width:auto;">
+        <button class="mobile-drawer-close" style="color:#FFF; font-size:1.5rem;" aria-label="Close Menu">&times;</button>
+      </div>
+      <ul class="mobile-drawer-links">
+        <li><a href="index.html" class="mobile-drawer-link" data-i18n="navHome">Home</a></li>
+        <li><a href="about.html" class="mobile-drawer-link" data-i18n="navAbout">About Us</a></li>
+        <li><a href="group.html" class="mobile-drawer-link" data-i18n="navGroup">Group Companies</a></li>
+        <li><a href="products.html" class="mobile-drawer-link" data-i18n="navProducts">Products & Commodities</a></li>
+        <li><a href="services.html" class="mobile-drawer-link" data-i18n="navServices">Consultancy Services</a></li>
+        <li><a href="gallery.html" class="mobile-drawer-link" data-i18n="navGallery">Gallery</a></li>
+        <li><a href="contact.html" class="mobile-drawer-link" data-i18n="navContact">Contact Hub</a></li>
+      </ul>
+    </div>
+    <div>
+      <a href="tel:+903125024064" class="btn btn-outline" style="width:100%; margin-bottom:0.75rem; justify-content:center;">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+        +90 (312) 502 40 64
+      </a>
+      <a href="#rfq-section" class="btn btn-primary" style="width:100%; justify-content:center;" data-i18n="navRfq">
+        Request Quote (RFQ)
+      </a>
+    </div>
+  </aside>
+
+  <!-- ==================== HERO SECTION ==================== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="https://teknoteb.cloud/assets/upload/polextradecom/f_a0f05_polex_slider.jpeg" alt="Global Trade Operations" class="hero-bg-img">
+      <div class="hero-overlay"></div>
+      <div class="hero-glow"></div>
+    </div>
+
+    <div class="container hero-content">
+      <!-- Radar Status Badge -->
+      <div class="hero-badge">
+        <span class="pulse-dot"></span>
+        <span data-i18n="heroBadge">Active in 40+ Countries Across 4 Continents</span>
+      </div>
+
+      <!-- Main Headline -->
+      <h1 class="hero-title">
+        <span data-i18n="heroTitleP1">Bridging Global Markets with</span><br>
+        <span class="gradient-text-gold" data-i18n="heroTitleAccent">Uncompromising Authority</span>
+      </h1>
+
+      <!-- Executive Subtext -->
+      <p class="hero-desc" data-i18n="heroDesc">
+        Since 2017, Polex Consultancy has bridged international commerce across pharmaceuticals, food commodities, textiles, machinery, and strategic industry consulting — delivering Swiss-tier reliability from Turkey to the world.
+      </p>
+
+      <!-- Hero Call-to-Actions -->
+      <div class="hero-cta">
+        <a href="products.html" class="btn btn-primary btn-lg" id="hero-btn-products">
+          <span data-i18n="heroCtaProducts">Explore Product Catalog</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </a>
+        <a href="#rfq-section" class="btn btn-outline btn-lg" id="hero-btn-rfq">
+          <span data-i18n="heroCtaRfq">Initiate Trade Inquiry</span>
+        </a>
+      </div>
+
+      <!-- Verified Metric Counters -->
+      <div class="stats-ribbon">
+        <div class="stat-item">
+          <div class="stat-number">40<span>+</span></div>
+          <div class="stat-label" data-i18n="heroStatCountries">Countries Active</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">200<span>+</span></div>
+          <div class="stat-label" data-i18n="heroStatClients">Corporate Clients</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">8<span>+</span></div>
+          <div class="stat-label" data-i18n="heroStatYears">Years of Excellence</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">2<span>+</span></div>
+          <div class="stat-label" data-i18n="heroStatGroup">Holding Entities</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== ACCREDITATIONS & TRUST TICKER ==================== -->
+  <section class="trust-bar">
+    <div class="container">
+      <div class="trust-badges-flex">
+        <div class="trust-badge-item">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+          <span data-i18n="trustIso">ISO 9001:2015 Certified</span>
+        </div>
+        <div class="trust-badge-item">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 14 14"></polyline></svg>
+          <span data-i18n="trustGmp">GMP Compliant Sourcing</span>
+        </div>
+        <div class="trust-badge-item">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          <span data-i18n="trustCe">CE Marked Industrial Goods</span>
+        </div>
+        <div class="trust-badge-item">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+          <span data-i18n="trustHalal">Halal International Standards</span>
+        </div>
+        <div class="trust-badge-item">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+          <span data-i18n="trustDeik">DEİK Foreign Trade Member</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== STRATEGIC ADVANTAGES / PILLARS ==================== -->
+  <section class="section" id="pillars">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="section-tag" data-i18n="pillarsTag">Operational Supremacy</div>
+        <h2 class="section-title" data-i18n="pillarsTitle">Why Global Enterprises Rely on Polex</h2>
+        <p class="section-subtitle" data-i18n="pillarsSubtitle">
+          We eliminate the risks, regulatory discrepancies, and logistical bottlenecks inherent in international commerce.
+        </p>
+      </div>
+
+      <div class="pillars-grid">
+        <div class="pillar-card">
+          <div class="pillar-icon-box">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+          </div>
+          <h3 class="pillar-title" data-i18n="pillar1Title">Direct Producer Allocation</h3>
+          <p class="pillar-desc" data-i18n="pillar1Desc">
+            Direct ties with Tier-1 manufacturers eliminate intermediate markups and ensure verified product provenance.
+          </p>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-icon-box">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+          </div>
+          <h3 class="pillar-title" data-i18n="pillar2Title">Regulatory & GMP Compliance</h3>
+          <p class="pillar-desc" data-i18n="pillar2Desc">
+            Stringent regulatory oversight, phytosanitary certificates, EUR.1 / ATR documentation, and batch quality assays.
+          </p>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-icon-box">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg>
+          </div>
+          <h3 class="pillar-title" data-i18n="pillar3Title">Multi-Modal Intermodal Freight</h3>
+          <p class="pillar-desc" data-i18n="pillar3Desc">
+            Seamless logistics coordination across maritime container lines, air cargo charters, and overland rail freight.
+          </p>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-icon-box">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+          </div>
+          <h3 class="pillar-title" data-i18n="pillar4Title">Trade Finance & L/C Security</h3>
+          <p class="pillar-desc" data-i18n="pillar4Desc">
+            Structured Letters of Credit (L/C), Escrow mechanisms, and compliant Incoterms (CIF, FOB, CFR, DDP).
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== INTERACTIVE GLOBAL TRADE CORRIDORS MAP ==================== -->
+  <section class="section trade-map-section" id="trade-map">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="section-tag" data-i18n="mapTag">Global Trade Corridors</div>
+        <h2 class="section-title" data-i18n="mapTitle">Strategic Transit Routes Across 40+ Nations</h2>
+        <p class="section-subtitle" data-i18n="mapSubtitle">
+          From our strategic headquarters in Ankara, Polex orchestrates intermodal trade corridors spanning Europe, the Middle East, Central Asia, and Africa.
+        </p>
+      </div>
+
+      <div class="trade-map-container">
+        <!-- Interactive Vector World Map -->
+        <svg class="trade-map-svg" viewBox="0 0 1000 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <!-- Stylized World Map Continents Outline (Abstract High-End Tech Nodes) -->
+          <path d="M150,110 Q210,90 280,120 T360,180 T260,280 T160,200 Z" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+          <path d="M460,90 Q530,60 620,80 T680,160 T560,180 T470,140 Z" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+          <path d="M470,200 Q550,190 580,260 T530,380 T460,320 T440,240 Z" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+          <path d="M640,110 Q780,80 880,120 T890,260 T760,280 T660,190 Z" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+
+          <!-- Active Shipping & Trade Arcs radiating from Ankara Hub (X: 535, Y: 155) -->
+          <!-- To Rotterdam (X: 475, Y: 110) -->
+          <path d="M535,155 Q500,125 475,110" stroke="url(#goldGradientArc)" stroke-width="2.5" stroke-dasharray="6,4" opacity="0.85">
+            <animate attributeName="stroke-dashoffset" from="50" to="0" dur="2.5s" repeatCount="indefinite" />
+          </path>
+          
+          <!-- To Dubai (X: 620, Y: 195) -->
+          <path d="M535,155 Q585,170 620,195" stroke="url(#goldGradientArc)" stroke-width="2.5" stroke-dasharray="6,4" opacity="0.85">
+            <animate attributeName="stroke-dashoffset" from="50" to="0" dur="2s" repeatCount="indefinite" />
+          </path>
+
+          <!-- To Central Asia / Almaty (X: 710, Y: 140) -->
+          <path d="M535,155 Q620,135 710,140" stroke="url(#goldGradientArc)" stroke-width="2.5" stroke-dasharray="6,4" opacity="0.85">
+            <animate attributeName="stroke-dashoffset" from="50" to="0" dur="3s" repeatCount="indefinite" />
+          </path>
+
+          <!-- To West Africa / Lagos (X: 470, Y: 270) -->
+          <path d="M535,155 Q490,210 470,270" stroke="url(#goldGradientArc)" stroke-width="2.5" stroke-dasharray="6,4" opacity="0.85">
+            <animate attributeName="stroke-dashoffset" from="50" to="0" dur="3.5s" repeatCount="indefinite" />
+          </path>
+
+          <!-- Gradients -->
+          <defs>
+            <linearGradient id="goldGradientArc" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#E0B45C" />
+              <stop offset="100%" stop-color="#2A6FDB" />
+            </linearGradient>
+          </defs>
+
+          <!-- Interactive Hotspot Pins -->
+          <!-- Ankara HQ Hub -->
+          <g class="map-hotspot" data-corridor="ankara" style="cursor:pointer;">
+            <circle cx="535" cy="155" r="16" fill="rgba(201,151,56,0.2)"/>
+            <circle cx="535" cy="155" r="8" fill="#E0B45C"/>
+            <circle cx="535" cy="155" r="3" fill="#070D1E"/>
+            <text x="548" y="160" fill="#E0B45C" font-size="12" font-weight="700" font-family="'Outfit', sans-serif">ANKARA (HQ)</text>
+          </g>
+
+          <!-- Rotterdam -->
+          <g class="map-hotspot" data-corridor="rotterdam" style="cursor:pointer;">
+            <circle cx="475" cy="110" r="10" fill="rgba(42,111,219,0.2)"/>
+            <circle cx="475" cy="110" r="5" fill="#4D8CF0"/>
+            <text x="390" y="105" fill="#CBD5E1" font-size="10" font-family="'Plus Jakarta Sans', sans-serif">ROTTERDAM</text>
+          </g>
+
+          <!-- Dubai -->
+          <g class="map-hotspot" data-corridor="dubai" style="cursor:pointer;">
+            <circle cx="620" cy="195" r="10" fill="rgba(42,111,219,0.2)"/>
+            <circle cx="620" cy="195" r="5" fill="#4D8CF0"/>
+            <text x="635" y="200" fill="#CBD5E1" font-size="10" font-family="'Plus Jakarta Sans', sans-serif">DUBAI</text>
+          </g>
+
+          <!-- Almaty -->
+          <g class="map-hotspot" data-corridor="almaty" style="cursor:pointer;">
+            <circle cx="710" cy="140" r="10" fill="rgba(42,111,219,0.2)"/>
+            <circle cx="710" cy="140" r="5" fill="#4D8CF0"/>
+            <text x="725" y="145" fill="#CBD5E1" font-size="10" font-family="'Plus Jakarta Sans', sans-serif">ALMATY</text>
+          </g>
+
+          <!-- Lagos -->
+          <g class="map-hotspot" data-corridor="lagos" style="cursor:pointer;">
+            <circle cx="470" cy="270" r="10" fill="rgba(42,111,219,0.2)"/>
+            <circle cx="470" cy="270" r="5" fill="#4D8CF0"/>
+            <text x="485" y="275" fill="#CBD5E1" font-size="10" font-family="'Plus Jakarta Sans', sans-serif">LAGOS</text>
+          </g>
+        </svg>
+
+        <!-- Hover Details Card -->
+        <div class="map-corridor-card" id="mapCorridorDetails">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+            <h4 class="map-corridor-title" style="margin:0;" data-i18n="corridorHub">Central Operational Hub</h4>
+            <span style="font-size:0.75rem; background:rgba(201,151,56,0.2); color:#E0B45C; padding:2px 8px; border-radius:12px; font-weight:700;">HQ Ankara</span>
+          </div>
+          <p class="map-corridor-desc" data-i18n="corridorHubLoc">Çamlıca Mah. Anadolu Bulv. 20 L/6, Yenimahalle / Ankara. Managing bilateral trade treaties, lab audits, and L/C security.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== PRODUCTS & COMMODITIES SHOWCASE ==================== -->
+  <section class="section section-alt" id="products">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="section-tag" data-i18n="prodTag">B2B Commodity Portfolio</div>
+        <h2 class="section-title" data-i18n="prodTitle">What We Trade Globally</h2>
+        <p class="section-subtitle" data-i18n="prodSubtitle">
+          Eight core categories rigorously inspected, packaged for international transit, and ready for volume dispatch.
+        </p>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="product-filter-tabs">
+        <button class="product-tab active" data-filter="all" data-i18n="prodTabAll">All Categories</button>
+        <button class="product-tab" data-filter="pharma" data-i18n="prodTabPharma">Pharmaceuticals</button>
+        <button class="product-tab" data-filter="medical" data-i18n="prodTabMedical">Medical Devices</button>
+        <button class="product-tab" data-filter="food" data-i18n="prodTabFood">Food Products</button>
+        <button class="product-tab" data-filter="textile" data-i18n="prodTabTextile">Textiles</button>
+        <button class="product-tab" data-filter="construction" data-i18n="prodTabConstruction">Construction</button>
+        <button class="product-tab" data-filter="machinery" data-i18n="prodTabMachinery">Machinery</button>
+        <button class="product-tab" data-filter="furniture" data-i18n="prodTabFurniture">Furniture</button>
+        <button class="product-tab" data-filter="custom" data-i18n="prodTabCustom">Custom OEM</button>
+      </div>
+
+      <!-- Products Grid -->
+      <div class="products-grid">
+        <!-- 1. Pharmaceuticals -->
+        <article class="product-card" data-category="pharma">
+          <div class="product-thumb-wrap">
+            <img src="https://teknoteb.cloud/assets/upload/polextradecom/f_18c8f_f_7681b_ilac.jpeg" alt="Certified Pharmaceuticals" class="product-thumb" loading="lazy">
+            <span class="product-category-tag" data-i18n="prodTabPharma">Pharmaceuticals</span>
+          </div>
+          <div class="product-body">
+            <h3 class="product-title" data-i18n="prodPharmaTitle">Certified Pharmaceuticals</h3>
+            <p class="product-desc" data-i18n="prodPharmaDesc">Prescription medications, hospital generics, vitamins, and healthcare formulations sourced under strict GMP protocols.</p>
+            <div class="product-footer">
+              <span class="product-spec">GMP / WHO Standard</span>
+              <a href="#rfq-section" class="btn btn-outline btn-sm btn-inquire-product" data-category="Pharmaceuticals" data-i18n="prodInquire">Inquire / RFQ</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 2. Medical Devices -->
+        <article class="product-card" data-category="medical">
+          <div class="product-thumb-wrap">
+            <img src="https://teknoteb.cloud/assets/upload/polextradecom/f_76afe_f_735c0_medikal.jpeg" alt="Medical Equipment" class="product-thumb" loading="lazy">
+            <span class="product-category-tag" data-i18n="prodTabMedical">Medical Devices</span>
+          </div>
+          <div class="product-body">
+            <h3 class="product-title" data-i18n="prodMedicalTitle">Medical & Diagnostic Devices</h3>
+            <p class="product-desc" data-i18n="prodMedicalDesc">Surgical consumables, laboratory diagnostic instruments, hospital disposables, and PPE meeting CE/FDA standards.</p>
+            <div class="product-footer">
+              <span class="product-spec">CE / ISO 13485</span>
+              <a href="#rfq-section" class="btn btn-outline btn-sm btn-inquire-product" data-category="Medical Equipment" data-i18n="prodInquire">Inquire / RFQ</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 3. Food Commodities -->
+        <article class="product-card" data-category="food">
+          <div class="product-thumb-wrap">
+            <img src="https://teknoteb.cloud/assets/upload/polextradecom/f_0cdaf_f_d4698_gida.jpeg" alt="Food Commodities" class="product-thumb" loading="lazy">
+            <span class="product-category-tag" data-i18n="prodTabFood">Food Products</span>
+          </div>
+          <div class="product-body">
+            <h3 class="product-title" data-i18n="prodFoodTitle">Food & Agricultural Commodities</h3>
+            <p class="product-desc" data-i18n="prodFoodDesc">Premium Turkish olive oils, grains, dairy derivatives, dried nuts, spices, and packaged food items with Halal certification.</p>
+            <div class="product-footer">
+              <span class="product-spec">Halal / ISO 22000</span>
+              <a href="#rfq-section" class="btn btn-outline btn-sm btn-inquire-product" data-category="Food Products" data-i18n="prodInquire">Inquire / RFQ</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 4. Textiles -->
+        <article class="product-card" data-category="textile">
+          <div class="product-thumb-wrap">
+            <img src="https://teknoteb.cloud/assets/upload/polextradecom/f_c432d_f_73978_tekstil.jpeg" alt="Textiles" class="product-thumb" loading="lazy">
+            <span class="product-category-tag" data-i18n="prodTabTextile">Textiles</span>
+          </div>
+          <div class="product-body">
+            <h3 class="product-title" data-i18n="prodTextileTitle">Technical & Commercial Textiles</h3>
+            <p class="product-desc" data-i18n="prodTextileDesc">Ready-to-wear garments, hotel linens, flame-retardant commercial fabrics, and industrial workwear from premier Turkish mills.</p>
+            <div class="product-footer">
+              <span class="product-spec">OEKO-TEX Standard</span>
+              <a href="#rfq-section" class="btn btn-outline btn-sm btn-inquire-product" data-category="Textiles" data-i18n="prodInquire">Inquire / RFQ</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 5. Construction -->
+        <article class="product-card" data-category="construction">
+          <div class="product-thumb-wrap">
+            <img src="https://teknoteb.cloud/assets/upload/polextradecom/f_21e1d_f_ad06c_insaat.jpeg" alt="Construction Materials" class="product-thumb" loading="lazy">
+            <span class="product-category-tag" data-i18n="prodTabConstruction">Construction</span>
+          </div>
+          <div class="product-body">
+            <h3 class="product-title" data-i18n="prodConstructionTitle">Heavy Construction Materials</h3>
+            <p class="product-desc" data-i18n="prodConstructionDesc">Structural steel, ceramic tiles, porcelain slabs, hydraulic cements, and modular prefabricated steel housing systems.</p>
+            <div class="product-footer">
+              <span class="product-spec">EN / ASTM Certified</span>
+              <a href="#rfq-section" class="btn btn-outline btn-sm btn-inquire-product" data-category="Construction Materials" data-i18n="prodInquire">Inquire / RFQ</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 6. Machinery -->
+        <article class="product-card" data-category="machinery">
+          <div class="product-thumb-wrap">
+            <img src="https://teknoteb.cloud/assets/upload/polextradecom/f_9d5a2_f_454a9_makine.jpeg" alt="Machinery" class="product-thumb" loading="lazy">
+            <span class="product-category-tag" data-i18n="prodTabMachinery">Machinery</span>
+          </div>
+          <div class="product-body">
+            <h3 class="product-title" data-i18n="prodMachineryTitle">Industrial Machinery & Tools</h3>
+            <p class="product-desc" data-i18n="prodMachineryDesc">Agricultural processing equipment, manufacturing tools, CNC automation parts, and precision spare components.</p>
+            <div class="product-footer">
+              <span class="product-spec">CE Machinery Directive</span>
+              <a href="#rfq-section" class="btn btn-outline btn-sm btn-inquire-product" data-category="Machinery" data-i18n="prodInquire">Inquire / RFQ</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 7. Furniture -->
+        <article class="product-card" data-category="furniture">
+          <div class="product-thumb-wrap">
+            <img src="https://teknoteb.cloud/assets/upload/polextradecom/f_9b0e3_f_62a44_mobilya.jpeg" alt="Contract Furniture" class="product-thumb" loading="lazy">
+            <span class="product-category-tag" data-i18n="prodTabFurniture">Furniture</span>
+          </div>
+          <div class="product-body">
+            <h3 class="product-title" data-i18n="prodFurnitureTitle">Commercial & Luxury Furniture</h3>
+            <p class="product-desc" data-i18n="prodFurnitureDesc">Architectural casework, residential luxury suites, office ergonomics, and hospitality grade furniture manufactured in Turkey.</p>
+            <div class="product-footer">
+              <span class="product-spec">Contract Grade FSC</span>
+              <a href="#rfq-section" class="btn btn-outline btn-sm btn-inquire-product" data-category="Furniture" data-i18n="prodInquire">Inquire / RFQ</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 8. Custom OEM -->
+        <article class="product-card" data-category="custom">
+          <div class="product-thumb-wrap">
+            <img src="https://teknoteb.cloud/assets/upload/polextradecom/f_61950_f_1a1dc_ozel.jpeg" alt="Custom Design" class="product-thumb" loading="lazy">
+            <span class="product-category-tag" data-i18n="prodTabCustom">Custom OEM</span>
+          </div>
+          <div class="product-body">
+            <h3 class="product-title" data-i18n="prodCustomTitle">Custom OEM & Bespoke Manufacturing</h3>
+            <p class="product-desc" data-i18n="prodCustomDesc">Custom-to-spec tooling, private label formulations, and specialized engineering products designed for global clients.</p>
+            <div class="product-footer">
+              <span class="product-spec">Bespoke Specifications</span>
+              <a href="#rfq-section" class="btn btn-outline btn-sm btn-inquire-product" data-category="Custom OEM" data-i18n="prodInquire">Inquire / RFQ</a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <!-- Action Button -->
+      <div style="text-align:center; margin-top:3.5rem;">
+        <a href="products.html" class="btn btn-primary btn-lg">
+          <span>View Full Specifications & Catalogs</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== B2B RFQ (REQUEST FOR QUOTATION) WIZARD ==================== -->
+  <section class="section rfq-section" id="rfq-section">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="section-tag" data-i18n="rfqTag">Instant B2B Engine</div>
+        <h2 class="section-title" data-i18n="rfqTitle">Request for Quotation (RFQ)</h2>
+        <p class="section-subtitle" data-i18n="rfqSubtitle">
+          Submit your procurement specifications. Our trade desk will issue a comprehensive commercial invoice and transit breakdown within 24 hours.
+        </p>
+      </div>
+
+      <div class="rfq-box">
+        <!-- Step Indicators -->
+        <div class="rfq-stepper">
+          <div class="rfq-step active" data-step="1">
+            <div class="rfq-step-circle">1</div>
+            <span class="rfq-step-label" data-i18n="rfqStep1">1. Commodity</span>
+          </div>
+          <div class="rfq-step" data-step="2">
+            <div class="rfq-step-circle">2</div>
+            <span class="rfq-step-label" data-i18n="rfqStep2">2. Port & Incoterm</span>
+          </div>
+          <div class="rfq-step" data-step="3">
+            <div class="rfq-step-circle">3</div>
+            <span class="rfq-step-label" data-i18n="rfqStep3">3. Volume & Specs</span>
+          </div>
+          <div class="rfq-step" data-step="4">
+            <div class="rfq-step-circle">4</div>
+            <span class="rfq-step-label" data-i18n="rfqStep4">4. Buyer Details</span>
+          </div>
+        </div>
+
+        <!-- Wizard Form -->
+        <form id="rfqWizardForm">
+          <!-- Step 1: Commodity Selection -->
+          <div class="rfq-step-content active" id="rfqStepContent1">
+            <div class="form-group form-group-full" style="margin-bottom:1.5rem;">
+              <label class="form-label" for="rfqCommodity" data-i18n="rfqCommodityLabel">Select Commodity Category</label>
+              <select class="form-control" id="rfqCommodity" name="commodity" required>
+                <option value="Pharmaceuticals">Pharmaceuticals & Healthcare Formulations</option>
+                <option value="Medical Equipment">Medical & Diagnostic Instruments</option>
+                <option value="Food Products">Food & Agricultural Commodities</option>
+                <option value="Textiles">Textiles & Commercial Garments</option>
+                <option value="Construction Materials">Structural Construction & Steel</option>
+                <option value="Machinery">Industrial Machinery & Components</option>
+                <option value="Furniture">Contract Furniture & Casework</option>
+                <option value="Custom OEM">Custom OEM & Bespoke Manufacturing</option>
+              </select>
+            </div>
+            <p style="font-size:0.85rem; color:#94A3B8;">Select the main category you wish to procure. You will specify target volumes and customs details in the next steps.</p>
+          </div>
+
+          <!-- Step 2: Port & Incoterm -->
+          <div class="rfq-step-content" id="rfqStepContent2">
+            <label class="form-label" data-i18n="rfqIncotermLabel">Preferred Incoterm Rule</label>
+            <div class="radio-cards-grid">
+              <label class="radio-card">
+                <input type="radio" name="incoterm" value="CIF" checked>
+                <div class="radio-card-content">
+                  <strong>CIF</strong>
+                  <span style="font-size:0.7rem; display:block; opacity:0.8;">Cost, Insurance & Freight</span>
+                </div>
+              </label>
+              <label class="radio-card">
+                <input type="radio" name="incoterm" value="FOB">
+                <div class="radio-card-content">
+                  <strong>FOB</strong>
+                  <span style="font-size:0.7rem; display:block; opacity:0.8;">Free on Board</span>
+                </div>
+              </label>
+              <label class="radio-card">
+                <input type="radio" name="incoterm" value="CFR">
+                <div class="radio-card-content">
+                  <strong>CFR</strong>
+                  <span style="font-size:0.7rem; display:block; opacity:0.8;">Cost & Freight</span>
+                </div>
+              </label>
+              <label class="radio-card">
+                <input type="radio" name="incoterm" value="EXW">
+                <div class="radio-card-content">
+                  <strong>EXW</strong>
+                  <span style="font-size:0.7rem; display:block; opacity:0.8;">Ex Works Ankara</span>
+                </div>
+              </label>
+            </div>
+
+            <div class="form-group" style="margin-top:1.5rem;">
+              <label class="form-label" for="rfqPort" data-i18n="rfqPortLabel">Destination Port / City</label>
+              <input type="text" class="form-control" id="rfqPort" name="port" placeholder="e.g., Port of Rotterdam, Hamburg, Jebel Ali, Lagos" data-i18n-placeholder="rfqPortPlaceholder" required>
+            </div>
+          </div>
+
+          <!-- Step 3: Volume & Specifications -->
+          <div class="rfq-step-content" id="rfqStepContent3">
+            <div class="form-grid">
+              <div class="form-group form-group-full">
+                <label class="form-label" for="rfqVolume" data-i18n="rfqVolumeLabel">Estimated Order Volume / MOQ</label>
+                <input type="text" class="form-control" id="rfqVolume" name="volume" placeholder="e.g., 2 x 40ft High Cube Containers, or 50,000 Units" data-i18n-placeholder="rfqVolumePlaceholder" required>
+              </div>
+              <div class="form-group form-group-full">
+                <label class="form-label" for="rfqNotes" data-i18n="rfqNotesLabel">Technical Specifications / Packaging Needs</label>
+                <textarea class="form-control" id="rfqNotes" name="notes" placeholder="Specify temperature control, private label requests, or custom certifications..." data-i18n-placeholder="rfqNotesPlaceholder"></textarea>
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 4: Buyer & Company Contact -->
+          <div class="rfq-step-content" id="rfqStepContent4">
+            <div class="form-grid">
+              <div class="form-group">
+                <label class="form-label" for="rfqName" data-i18n="rfqNameLabel">Buyer / Executive Name</label>
+                <input type="text" class="form-control" id="rfqName" name="name" placeholder="e.g., Alexander Weber" data-i18n-placeholder="rfqNamePlaceholder" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="rfqCompany" data-i18n="rfqCompanyLabel">Company / Organization Name</label>
+                <input type="text" class="form-control" id="rfqCompany" name="company" placeholder="e.g., Weber International Trading GmbH" data-i18n-placeholder="rfqCompanyPlaceholder" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="rfqEmail" data-i18n="rfqEmailLabel">Corporate Email Address</label>
+                <input type="email" class="form-control" id="rfqEmail" name="email" placeholder="procurement@weber-trade.de" data-i18n-placeholder="rfqEmailPlaceholder" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="rfqPhone" data-i18n="rfqPhoneLabel">Phone / WhatsApp (with country code)</label>
+                <input type="tel" class="form-control" id="rfqPhone" name="phone" placeholder="+49 170 ..." data-i18n-placeholder="rfqPhonePlaceholder" required>
+              </div>
+            </div>
+          </div>
+
+          <!-- Stepper Buttons -->
+          <div class="rfq-nav-buttons">
+            <button type="button" class="btn btn-outline" id="rfqPrevBtn" style="visibility:hidden;">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg>
+              <span data-i18n="rfqBtnPrev">Back</span>
+            </button>
+            <button type="button" class="btn btn-primary" id="rfqNextBtn">
+              <span data-i18n="rfqBtnNext">Next Step</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </button>
+            <button type="submit" class="btn btn-primary" id="rfqSubmitBtn" style="display:none;">
+              <span data-i18n="rfqBtnSubmit">Submit Procurement RFQ</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== GROUP OF COMPANIES SHOWCASE ==================== -->
+  <section class="section" id="group-companies">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="section-tag" data-i18n="groupTag">Corporate Ecosystem</div>
+        <h2 class="section-title" data-i18n="groupTitle">Our Affiliated Enterprises</h2>
+        <p class="section-subtitle" data-i18n="groupSubtitle">
+          Polex operates alongside specialized corporate subsidiaries with dedicated infrastructure in pharmaceutical logistics and maritime hospitality.
+        </p>
+      </div>
+
+      <div class="group-companies-grid">
+        <!-- Tay Pharma -->
+        <article class="company-showcase-card">
+          <div class="company-card-header">
+            <img src="https://teknoteb.cloud/assets/upload/polextradecom/f_5b975_f_9dfad_tay_featured.jpg" alt="Tay Pharma Ecza Deposu" class="company-card-img" loading="lazy">
+            <span class="company-badge-tag">PHARMACEUTICAL LOGISTICS</span>
+          </div>
+          <div class="company-card-body">
+            <h3 class="company-title" data-i18n="groupTayTitle">TAY PHARMA</h3>
+            <div class="company-subtitle" data-i18n="groupTaySubtitle">Pharmaceutical Warehouse & Global Export</div>
+            <p class="company-desc" data-i18n="groupTayDesc">
+              Established in 2020 with a global health mandate, Tay Pharma operates licensed pharmaceutical warehousing, shipping genuine prescription pharmaceuticals and hospital supplies to over 50 countries worldwide.
+            </p>
+            <div class="company-metrics">
+              <div class="company-metric-item">
+                <span class="company-metric-val" data-i18n="groupTayMetric1Val">50+ Countries</span>
+                <span class="company-metric-lbl" data-i18n="groupTayMetric1Lbl">Export Reach</span>
+              </div>
+              <div class="company-metric-item">
+                <span class="company-metric-val" data-i18n="groupTayMetric2Val">2020</span>
+                <span class="company-metric-lbl" data-i18n="groupTayMetric2Lbl">Founded</span>
+              </div>
+            </div>
+            <a href="https://www.taypharma.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="width:100%; justify-content:center;">
+              <span data-i18n="groupTayBtn">Visit Tay Pharma Portal</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- Mag Yachting -->
+        <article class="company-showcase-card">
+          <div class="company-card-header">
+            <img src="https://teknoteb.cloud/assets/upload/polextradecom/f_17128_f_73728_mag_featured.jpg" alt="Mag Yachting" class="company-card-img" loading="lazy">
+            <span class="company-badge-tag">LUXURY MARITIME CHARTERS</span>
+          </div>
+          <div class="company-card-body">
+            <h3 class="company-title" data-i18n="groupMagTitle">MAG YACHTING</h3>
+            <div class="company-subtitle" data-i18n="groupMagSubtitle">Luxury Yachting & Mediterranean Maritime Hospitality</div>
+            <p class="company-desc" data-i18n="groupMagDesc">
+              Operating from the Turkish Riviera in Fethiye, Mag Yachting provides bespoke yacht charters, private Mediterranean voyages, and maritime logistics with an executive crew and world-class fleet.
+            </p>
+            <div class="company-metrics">
+              <div class="company-metric-item">
+                <span class="company-metric-val" data-i18n="groupMagMetric1Val">Fethiye, TR</span>
+                <span class="company-metric-lbl" data-i18n="groupMagMetric1Lbl">Home Port</span>
+              </div>
+              <div class="company-metric-item">
+                <span class="company-metric-val" data-i18n="groupMagMetric2Val">VIP Charter</span>
+                <span class="company-metric-lbl" data-i18n="groupMagMetric2Lbl">Experience</span>
+              </div>
+            </div>
+            <a href="https://www.magyachting.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="width:100%; justify-content:center;">
+              <span data-i18n="groupMagBtn">Explore Mag Yachting</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+            </a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== ABOUT TEASER & CEO VISION ==================== -->
+  <section class="section section-alt" id="about-teaser">
+    <div class="container">
+      <div class="about-split">
+        <!-- Visual Frame with Real Photo -->
+        <div class="about-img-frame">
+          <img src="assets/images/ceo.jpeg" alt="Polex Trade CEO & Management" loading="lazy">
+          <div class="about-quote-box">
+            <p class="about-quote-text" data-i18n="aboutQuote">
+              "Our mission is to eliminate the knowledge discrepancy in global commerce, ensuring complete transparency, operational excellence, and mutual prosperity for manufacturers and buyers worldwide."
+            </p>
+            <div class="about-quote-author" data-i18n="aboutCeoName">Polex Executive Leadership</div>
+            <div style="font-size:0.75rem; color:#94A3B8;" data-i18n="aboutCeoRole">Ankara Headquarters</div>
+          </div>
+        </div>
+
+        <!-- Text Content -->
+        <div>
+          <div class="section-tag" data-i18n="aboutTag">Corporate Heritage</div>
+          <h2 class="section-title" data-i18n="aboutTitle">Bridging Continents, Guarding Global Commerce Since 2017</h2>
+          <p style="font-size:1.05rem; line-height:1.7; margin-bottom:1.5rem;" data-i18n="aboutDesc1">
+            Polex Consultancy was established in Ankara in 2017, bringing decades of international trade governance and cross-border commercial strategy under one prestigious roof.
+          </p>
+          <p style="color:#94A3B8; line-height:1.7; margin-bottom:2rem;" data-i18n="aboutDesc2">
+            While our foundation was forged in the demanding, high-compliance pharmaceutical sector, our operations have scaled across global commodities to fulfill the market gaps observed by our international partners.
+          </p>
+
+          <div style="display:flex; gap:1rem; flex-wrap:wrap;">
+            <a href="about.html" class="btn btn-primary" data-i18n="aboutBtn">Read Full Company Profile</a>
+            <a href="contact.html" class="btn btn-outline" data-i18n="navContact">Contact Hub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CALL TO ACTION BANNER ==================== -->
+  <section class="section">
+    <div class="container">
+      <div class="cta-banner">
+        <div class="cta-banner-content">
+          <h2 class="cta-banner-title gradient-text-gold">Ready to Expand Your Cross-Border Horizon?</h2>
+          <p class="cta-banner-desc">
+            Directly connect with our Ankara trade desk for high-volume inquiries, agency tenders, and bilateral supply contracts.
+          </p>
+          <div style="display:flex; justify-content:center; gap:1rem; flex-wrap:wrap;">
+            <a href="tel:+903125024064" class="btn btn-primary btn-lg">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              <span>+90 (312) 502 40 64</span>
+            </a>
+            <a href="contact.html" class="btn btn-outline btn-lg" data-i18n="navContact">
+              Contact Hub
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FLOATING QUICK ACTIONS ==================== -->
+  <aside class="floating-actions" aria-label="Quick Actions">
+    <!-- WhatsApp Direct -->
+    <a href="https://wa.me/903125024064" target="_blank" rel="noopener noreferrer" class="floating-btn floating-whatsapp" data-tip="WhatsApp Desk" aria-label="Chat on WhatsApp">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.698c.969.584 1.771.892 2.796.893 3.185 0 5.77-2.587 5.77-5.766.001-3.187-2.575-5.78-5.77-5.78zm3.376 8.212c-.149.42-1.026.837-1.423.89-.395.053-.906.079-2.923-.758-1.579-.655-2.587-2.261-2.666-2.366-.079-.105-.632-.843-.632-1.607 0-.764.395-1.141.536-1.299.141-.157.308-.197.41-.197.103 0 .205.002.296.006.096.004.225-.036.352.269.132.316.449 1.095.488 1.174.04.079.066.171.013.276-.053.105-.079.171-.158.263-.079.092-.166.206-.237.276-.079.079-.162.164-.07.322.092.158.411.678.882 1.098.606.541 1.116.708 1.274.787.158.079.25.066.342-.04.092-.105.395-.46.5-.618.105-.158.21-.132.355-.079.145.053.921.434 1.079.513.158.079.263.118.303.184.039.066.039.382-.11.802z"/></svg>
+    </a>
+
+    <!-- Telephone Hotline -->
+    <a href="tel:+903125024064" class="floating-btn floating-phone" data-tip="Call Office" aria-label="Direct Phone Call">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+    </a>
+
+    <!-- Back to Top -->
+    <button class="floating-btn floating-top" data-tip="Top" aria-label="Back to Top">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"></polyline></svg>
+    </button>
+  </aside>
+
+  <!-- ==================== LUXURY FOOTER ==================== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1: Corporate Profile -->
+        <div>
+          <a href="index.html">
+            <img src="assets/images/logo.png" alt="Polex Trade Logo" style="height:50px; width:auto; margin-bottom:1rem;">
+          </a>
+          <p class="footer-brand-desc" data-i18n="footerDesc">
+            Polex Consultancy International Trade — Ankara-based global trading house and consultancy operating seamlessly across 40+ countries since 2017.
+          </p>
+          <div class="footer-social-links">
+            <a href="https://www.linkedin.com/company/polex-consultancy-international-trade/" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="LinkedIn Profile">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+            </a>
+            <a href="https://www.instagram.com/polextrade/" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Instagram Profile">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Col 2: Navigation -->
+        <div>
+          <h4 class="footer-col-title" data-i18n="footerColLinks">Corporate Navigation</h4>
+          <ul class="footer-links-list">
+            <li><a href="about.html" class="footer-link" data-i18n="navAbout">About Us</a></li>
+            <li><a href="group.html" class="footer-link" data-i18n="navGroup">Group Companies</a></li>
+            <li><a href="products.html" class="footer-link" data-i18n="navProducts">Products & Commodities</a></li>
+            <li><a href="services.html" class="footer-link" data-i18n="navServices">Consultancy Services</a></li>
+            <li><a href="gallery.html" class="footer-link" data-i18n="navGallery">Gallery</a></li>
+            <li><a href="contact.html" class="footer-link" data-i18n="navContact">Contact Hub</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Commodities -->
+        <div>
+          <h4 class="footer-col-title" data-i18n="footerColCommodities">Commodity Categories</h4>
+          <ul class="footer-links-list">
+            <li><a href="products.html" class="footer-link" data-i18n="prodTabPharma">Pharmaceuticals</a></li>
+            <li><a href="products.html" class="footer-link" data-i18n="prodTabMedical">Medical Devices</a></li>
+            <li><a href="products.html" class="footer-link" data-i18n="prodTabFood">Food Commodities</a></li>
+            <li><a href="products.html" class="footer-link" data-i18n="prodTabTextile">Textiles & Fabrics</a></li>
+            <li><a href="products.html" class="footer-link" data-i18n="prodTabConstruction">Construction Materials</a></li>
+            <li><a href="products.html" class="footer-link" data-i18n="prodTabMachinery">Industrial Machinery</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Ankara Headquarters -->
+        <div>
+          <h4 class="footer-col-title" data-i18n="footerColContact">Ankara Headquarters</h4>
+          <div class="footer-contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            <span data-i18n="contactHqVal">Çamlıca Mah. Anadolu Bulv. 20 L/6, Yenimahalle / Ankara, Turkey</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            <a href="tel:+903125024064" class="footer-link">+90 (312) 502 40 64</a>
+          </div>
+          <div class="footer-contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            <a href="mailto:info@polextrade.com" class="footer-link">info@polextrade.com</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom">
+        <div>
+          &copy; <span id="currentYear">2026</span> Polex Consultancy International Trade. <span data-i18n="footerRights">All rights reserved. Established in Ankara, Turkey.</span>
+        </div>
+        <div class="footer-bottom-links">
+          <a href="contact.html" class="footer-link" data-i18n="footerPrivacy">Privacy Policy</a>
+          <a href="contact.html" class="footer-link" data-i18n="footerTerms">Terms of International Trade</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script>
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

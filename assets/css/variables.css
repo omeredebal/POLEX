@@ -1,0 +1,112 @@
+/**
+ * POLEX TRADE & CONSULTANCY
+ * Design Tokens & Master Variables
+ * Aesthetics: Prestige Global B2B / Editorial Luxury
+ */
+
+:root {
+  /* Color Palette - Deep Corporate & Gold Prestige */
+  --color-brand-primary: #070D1E;
+  --color-brand-secondary: #0E1831;
+  --color-brand-tertiary: #162446;
+  --color-brand-card: #121E3B;
+  --color-brand-card-hover: #19294F;
+
+  /* Accent - Champagne & Sovereign Gold */
+  --color-gold: #C99738;
+  --color-gold-light: #E0B45C;
+  --color-gold-hover: #E8BF6D;
+  --color-gold-muted: rgba(201, 151, 56, 0.18);
+  --color-gold-glow: rgba(201, 151, 56, 0.35);
+
+  /* Secondary Accents */
+  --color-blue: #2A6FDB;
+  --color-blue-light: #4D8CF0;
+  --color-blue-muted: rgba(42, 111, 219, 0.15);
+  --color-emerald: #10B981;
+  --color-emerald-muted: rgba(16, 185, 129, 0.15);
+
+  /* Backgrounds & Surfaces */
+  --bg-dark: #050914;
+  --bg-dark-alt: #090F21;
+  --bg-card: rgba(14, 24, 49, 0.85);
+  --bg-card-border: rgba(255, 255, 255, 0.08);
+  --bg-card-border-gold: rgba(201, 151, 56, 0.35);
+  --bg-glass: rgba(7, 13, 30, 0.82);
+  --bg-glass-elevated: rgba(18, 30, 59, 0.88);
+
+  /* Light Theme / Editorial Contrast Sections */
+  --bg-light: #F8FAFC;
+  --bg-light-alt: #EEF2F6;
+  --card-light: #FFFFFF;
+  --border-light: #E2E8F0;
+  --text-dark: #0A1128;
+  --text-dark-muted: #475569;
+
+  /* Typography Colors */
+  --text-primary: #F8FAFC;
+  --text-secondary: #CBD5E1;
+  --text-muted: #94A3B8;
+  --text-dim: #64748B;
+  --text-gold: #E0B45C;
+
+  /* Fonts */
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-display: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+  --font-serif: 'Playfair Display', Georgia, serif;
+
+  /* Spacing Scale */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+  --space-32: 8rem;
+
+  /* Typography Scale */
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2.25rem;
+  --text-5xl: 3rem;
+  --text-6xl: 3.75rem;
+  --text-7xl: 4.5rem;
+
+  /* Radii */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+  --radius-2xl: 28px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.25);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.35);
+  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.45);
+  --shadow-xl: 0 24px 60px rgba(0, 0, 0, 0.55);
+  --shadow-gold: 0 10px 30px rgba(201, 151, 56, 0.25);
+  --shadow-blue: 0 10px 30px rgba(42, 111, 219, 0.25);
+
+  /* Transitions */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-fast: 0.18s ease;
+  --transition-base: 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-slow: 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Header */
+  --nav-height: 80px;
+  --container-max: 1280px;
+  --container-narrow: 1040px;
+}

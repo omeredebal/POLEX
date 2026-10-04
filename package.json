@@ -1,27 +1,20 @@
 {
-  "name": "polex",
-  "version": "0.1.0",
+  "name": "polex-trade",
+  "version": "2.0.0",
   "private": true,
+  "description": "Polex Trade & Consultancy - Premier International Commerce & Global Sourcing Platform",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+    "dev": "python3 -m http.server 3000",
+    "start": "python3 -m http.server 3000",
+    "serve": "npx -y serve -l 3000 ."
   },
-  "dependencies": {
-    "framer-motion": "^12.40.0",
-    "lucide-react": "^1.16.0",
-    "next": "16.2.6",
-    "react": "19.2.4",
-    "react-dom": "19.2.4",
-    "react-hook-form": "^7.76.1"
-  },
-  "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "16.2.6",
-    "typescript": "^5"
-  }
+  "keywords": [
+    "international-trade",
+    "turkey-export",
+    "pharmaceuticals",
+    "commodities",
+    "consultancy",
+    "polex"
+  ],
+  "author": "Polex Consultancy International Trade"
 }
